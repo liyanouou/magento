@@ -33,7 +33,7 @@ $has_addr	= $this->customerHasAddresses();
 ?>
 <div class="onestepcheckout_block">
     <div class="op_block_title" id="name">
-		<?php	echo $this->__('1. Name & Address');	?>
+		<?php	echo $this->__('1. &#x6536;&#x8D27;&#x5730;&#x5740;');	?>
     </div>
     <div class="form_fields">
     <?php if ($has_addr){ ?>
@@ -62,7 +62,7 @@ $has_addr	= $this->customerHasAddresses();
 					</div>
 				</div>
 			<?php endif;?>
-				<div class="full">
+				<!--<div class="full">
 					<label for="billing:company" >
 						<?php echo $this->__('Company') ?>
 					</label>
@@ -70,7 +70,7 @@ $has_addr	= $this->customerHasAddresses();
 					<div class="data_area">
 						<input type="text" id="billing:company" name="billing[company]" value="<?php echo $this->htmlEscape($this->getBillAddress()->getCompany()) ?>" title="<?php echo $this->__('Company') ?>" class="t1" />
 					</div>
-				</div>			
+				</div>	-->		
             	<div class="full">
 					<label for="billing:street1" class="required">
 						<?php echo $this->__('Address') ?>
@@ -150,7 +150,7 @@ $has_addr	= $this->customerHasAddresses();
 					<?php echo $this->getBillingCountriesSelectBox() ?>
 				</div>
 			</div>
-			<div lang="two_fields">
+			<!--<div lang="two_fields">
 				<div class="short">
 					<label for="billing:fax">
 						<?php echo $this->__('Fax') ?>
@@ -160,7 +160,7 @@ $has_addr	= $this->customerHasAddresses();
 						<input type="text" name="billing[fax]" value="<?php echo $this->htmlEscape($this->getBillAddress()->getFax()) ?>" title="<?php echo $this->__('Fax') ?>" class="t1" id="billing:fax" />
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<div class='clr'></div>
 			<?php 
 			if (!$logged) :			
