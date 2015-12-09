@@ -1,2 +1,5 @@
 /var/cache/*
 /var/session/*
+/media/catalog/product/cache/*
+/var/report/*
+
