@@ -99,7 +99,7 @@ $has_addr	= $this->customerHasAddresses();
 						<?php echo $this->__('City') ?>
 					</label>					
 					<div class="data_area">
-						<input type="text" name="billing[city]" id="billing:city" title="<?php echo $this->__('City') ?>" value="<?php echo $this->htmlEscape($this->getBillAddress()->getCity()) ?>" class="validate-alpha t1 required-entry" maxlength="20"  />
+						<input type="text" name="billing[city]" id="billing:city" title="<?php echo $this->__('City') ?>" value="<?php echo $this->htmlEscape($this->getBillAddress()->getCity()) ?>" class="t1 required-entry" maxlength="20"  />
                         </div>
 				</div>			
 				<div class="short">
@@ -115,7 +115,7 @@ $has_addr	= $this->customerHasAddresses();
 							$('billing:region_id').setAttribute('defaultValue',  "<?php echo $this->getBillAddress()->getRegionId() ?>");
 						//]]>
 						</script>
-						<input type="text" id="billing:region" name="billing[region]" value="<?php echo $this->htmlEscape($this->getBillAddress()->getRegion()) ?>"  title="<?php echo $this->__('State/Province') ?>" class="validate-alpha t1" maxlength="20" style="display:none;" />
+						<input type="text" id="billing:region" name="billing[region]" value="<?php echo $this->htmlEscape($this->getBillAddress()->getRegion()) ?>"  title="<?php echo $this->__('State/Province') ?>" class=" t1" maxlength="20" style="display:none;" />
 					</div>
 				</div>
 			</div>
