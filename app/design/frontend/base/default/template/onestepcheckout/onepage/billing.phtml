@@ -104,7 +104,7 @@ $has_addr	= $this->customerHasAddresses();
 				</div>			
 				<div class="short">
 					<label for="billing:region_id" class="required">
-						<?php echo $this->__('State / Province') ?>
+						<?php echo $this->__('&#x7701;&#x4EFD;') ?>
 					</label>					
 					<div class="data_area">
 						<select id="billing:region_id" name="billing[region_id]" title="<?php echo $this->__('State/Province') ?>" class="validate-select required-entry" style="display:none;">
@@ -123,7 +123,7 @@ $has_addr	= $this->customerHasAddresses();
 			<div class="two_fields">                				
 				<div class="short">
 					<label for="billing:postcode" class="required">
-						<?php echo $this->__('Zip Code') ?>
+						<?php echo $this->__('&#x90AE;&#x653F;&#x7F16;&#x7801;') ?>
 					</label>
 					
 					<div class="data_area">
@@ -201,14 +201,14 @@ $has_addr	= $this->customerHasAddresses();
 				if ($agc) 
 				{
 				?>
-				<ul>
+				<!--<ul>
 					<li class="options">
 						<input type="checkbox" name="billing[register_account]" value="1" title="<?php echo $this->__('Create an account for later use') ?>" id="billing:register_account" onclick="if(window.billing) billing.setCreateAccount(this.checked);"<?php if ($this->getBillAddress()->getRegisterAccount()):?> checked="checked"<?php endif;?> class="checkbox" />
 						<label for="billing:register_account">
 							<?php echo $this->__('Create an account for later use') ?>
 						</label>
 					</li>
-				</ul>
+				</ul>-->
 				<?php
 				} 
 				else

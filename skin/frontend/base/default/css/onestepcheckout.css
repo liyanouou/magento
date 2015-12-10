@@ -59,12 +59,12 @@ color:#FFFFFF;font:bold 12px/20px Arial,Helvetica,sans-serif;height:20px !import
 .onestepcheckout_datafields #review{ text-transform:uppercase;color:#000;font-size:11pt;font-weight:bold;border-bottom:1px solid #000;margin: 25px 0 30px;}
 
 .onestepcheckout_datafields .col-1 .form_fields .short {width:50%; float:left; }
-.onestepcheckout_datafields .col-1 .form_fields div.two_fields .data_area { width: 95%; }
+.onestepcheckout_datafields .col-1 .form_fields div.two_fields .data_area { width: 71%; }
 .onestepcheckout_datafields .col-1 .form_fields div.two_fields .short { margin-bottom:15px; }
 .onestepcheckout_datafields .col-1 .form_fields input.t1 { width: 95%; padding:2px; background:none repeat scroll 0 0 #FFFFFF;border:1px solid #B6B6B6;}
 .onestepcheckout_datafields .col-1 .form_fields select { width: 100%; }
 .onestepcheckout_datafields .col-1 .form_fields div.full { margin:0 0 15px; }
-.onestepcheckout_datafields .col-1 .form_fields div.full .data_area { width: 100%; }
+.onestepcheckout_datafields .col-1 .form_fields div.full .data_area { width: 88%; }
 .onestepcheckout_datafields .col-1 .form_fields div.full input.t1 { width: 95%; padding:2px; background:none repeat scroll 0 0 #FFFFFF;border:1px solid #B6B6B6;}
 .onestepcheckout_datafields .col-1 .form_fields div.full select { width: 97%; }
 
