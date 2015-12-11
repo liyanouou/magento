@@ -29,11 +29,11 @@
     <menu>
         <catalog>
             <children>
-                <sitemap translate="title" module="sitemap">
+                <!--<sitemap translate="title" module="sitemap">
                     <title>Google Sitemap</title>
                     <sort_order>180</sort_order>
                     <action>adminhtml/sitemap/</action>
-                </sitemap>
+                </sitemap>-->
             </children>
         </catalog>
     </menu>

@@ -57,16 +57,16 @@
                     <action>adminhtml/sales_transactions</action>
                     <sort_order>50</sort_order>
                 </transactions>
-                <recurring_profile translate="title" module="sales">
+                <!--<recurring_profile translate="title" module="sales">
                     <title>Recurring Profiles (beta)</title>
                     <action>adminhtml/sales_recurring_profile</action>
                     <sort_order>60</sort_order>
-                </recurring_profile>
-                <billing_agreement translate="title" module="sales">
+                </recurring_profile>-->
+                <!--<billing_agreement translate="title" module="sales">
                     <title>Billing Agreements</title>
                     <action>adminhtml/sales_billing_agreement</action>
                     <sort_order>70</sort_order>
-                </billing_agreement>
+                </billing_agreement>-->
             </children>
          </sales>
          <system>

@@ -43,10 +43,10 @@
                     <title>Newsletter Subscribers</title>
                     <action>adminhtml/newsletter_subscriber/</action>
                 </subscriber>
-                <problem translate="title" module="newsletter">
+                <!--<problem translate="title" module="newsletter">
                     <title>Newsletter Problem Reports</title>
                     <action>adminhtml/newsletter_problem/</action>
-                </problem>
+                </problem>-->
             </children>
         </newsletter>
     </menu>

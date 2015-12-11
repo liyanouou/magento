@@ -59,11 +59,11 @@
                     </children>
                     <sort_order>20</sort_order>
                 </attributes>
-                <urlrewrite translate="title" module="catalog">
+                <!--<urlrewrite translate="title" module="catalog">
                     <title>URL Rewrite Management</title>
                     <action>adminhtml/urlrewrite/index</action>
                     <sort_order>30</sort_order>
-                </urlrewrite>
+                </urlrewrite>-->
             </children>
         </catalog>
     </menu>
